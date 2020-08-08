@@ -2,16 +2,17 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>egov-web2-ex</groupId>
-	<artifactId>egov-web2-ex</artifactId>
+	<groupId>egov-web-ex</groupId>
+	<artifactId>egov-web-ex</artifactId>
 	<packaging>war</packaging>
 	<version>1.0.0</version>
-	<name>egov-web2-ex</name>
+	<name>egov-web-ex</name>
 	<url>http://www.egovframe.go.kr</url>
 
 	<properties>
 		<spring.maven.artifact.version>3.2.9.RELEASE</spring.maven.artifact.version>
 		<egovframework.rte.version>2.7.0</egovframework.rte.version>
+		<encoding>UTF-8</encoding>
 	</properties>
 
 	<repositories>
@@ -349,7 +350,7 @@
                         <inherited>true</inherited>
                         <configuration>
                             <links>
-                                <link>http://docs.oracle.com/javase/6/docs/api/</link>
+                                <link>http://docs.oracle.com/javase/8/docs/api/</link>
                             </links>
                         </configuration>
                     </reportSet>
